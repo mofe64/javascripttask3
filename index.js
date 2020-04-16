@@ -17,5 +17,9 @@ const taskFunction = (parmater) => {
   return divisibleNumber;
 };
 
-taskFunction(30);
+taskFunction(100);
+console.log(divisibleNumber);
+taskFunction(50);
+console.log(divisibleNumber);
+taskFunction(10);
 console.log(divisibleNumber);
