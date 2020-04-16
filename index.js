@@ -8,6 +8,8 @@ const taskFunction = (parmater) => {
       divisibleNumber[i] % 5 === 0
     )
       divisibleNumber[i] = "yu-gi-0h";
+    if (divisibleNumber[i] % 2 === 0 && divisibleNumber[i] % 5 === 0)
+      divisibleNumber[i] = "yu-oh";
     if (divisibleNumber[i] % 2 === 0 && divisibleNumber[i] % 3 === 0)
       divisibleNumber[i] = "yu-gi";
     if (divisibleNumber[i] % 2 === 0) divisibleNumber[i] = "yu";
